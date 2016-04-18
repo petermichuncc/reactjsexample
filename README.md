@@ -1,55 +1,37 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+# React TodoMVC Example
 
-# React Tutorial
+> React is a JavaScript library for creating user interfaces. Its core principles are declarative code, efficiency, and flexibility. Simply specify what your component looks like and React will keep it up-to-date when the underlying data changes.
 
-This is the React comment box example from [the React tutorial](http://facebook.github.io/react/docs/tutorial.html).
+> _[React - facebook.github.io/react](http://facebook.github.io/react)_
 
-## To use
 
-There are several simple server implementations included. They all serve static files from `public/` and handle requests to `/api/comments` to fetch or add data. Start a server with one of the following:
+## Learning React
 
-### Node
+The [React getting started documentation](http://facebook.github.io/react/docs/getting-started.html) is a great way to get started.
 
-```sh
-npm install
-node server.js
-```
+Here are some links you may find helpful:
 
-### Python
+* [Documentation](http://facebook.github.io/react/docs/getting-started.html)
+* [API Reference](http://facebook.github.io/react/docs/reference.html)
+* [Blog](http://facebook.github.io/react/blog/)
+* [React on GitHub](https://github.com/facebook/react)
+* [Support](http://facebook.github.io/react/support.html)
 
-```sh
-pip install -r requirements.txt
-python server.py
-```
+Articles and guides from the community:
 
-### Ruby
-```sh
-ruby server.rb
-```
+* [How is Facebook's React JavaScript library](http://www.quora.com/React-JS-Library/How-is-Facebooks-React-JavaScript-library)
+* [React: Under the hood](http://www.quora.com/Pete-Hunt/Posts/React-Under-the-Hood)
 
-### PHP
-```sh
-php server.php
-```
+Get help from other React users:
 
-### Go
-```sh
-go run server.go
-```
+* [React on StackOverflow](http://stackoverflow.com/questions/tagged/reactjs)
+* [Discussion Forum](https://discuss.reactjs.org/)
 
-### Perl
+_If you have other helpful links to share, or find any of the links above no longer work, please [let us know](https://github.com/tastejs/todomvc/issues)._
 
-```sh
-cpan Mojolicious
-perl server.pl
-```
 
-And visit <http://localhost:3000/>. Try opening multiple tabs!
+## Running
 
-## Changing the port
+The app is built with [JSX](http://facebook.github.io/react/docs/jsx-in-depth.html) and compiled at runtime for a lighter and more fun code reading experience. As stated in the link, JSX is not mandatory.
 
-You can change the port number by setting the `$PORT` environment variable before invoking any of the scripts above, e.g.,
-
-```sh
-PORT=3001 node server.js
-```
+To run the app, spin up an HTTP server (e.g. `python -m SimpleHTTPServer`) and visit http://localhost/.../myexample/.
